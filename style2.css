@@ -112,7 +112,7 @@ select {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 75rem;
+    max-width: 83rem;
 }
 .row:before, .row:after {
     content: " ";
@@ -9402,8 +9402,7 @@ a.logo:hover {
 .nav {
     position: relative;
     z-index: 20;
-    padding-left: 28px;
-    border-left: 1px solid  #d6dce2;
+    padding-left: 150px;
     margin-top: 29px;
 }
 .nav ul {
@@ -9495,7 +9494,7 @@ a.logo:hover {
     padding: 0 10px !important;
 }
 .logo img {
-    width: 90%;
+    width: 72%;
     max-width: 290px;
     height: auto;
     display: block;
@@ -9546,7 +9545,6 @@ a.logo:hover {
 }@media (max-width: 767px) {
     .header {
     position: relative;
-    padding-bottom: 20px;
 }
 .header .columns {
     padding: 0 13px !important;
@@ -9983,7 +9981,6 @@ a.logo:hover {
 .section-services {
     position: relative;
     z-index: 5;
-    padding-bottom: 123px;
 }
 .section-services .section-ribbon {
     background-color: #7f64b5;
@@ -10897,7 +10894,7 @@ a.logo:hover {
     color: #fff;
 }
 .copyright {
-    padding-top: 20px;
+    padding-top: 10px;
     border-top: 1px solid #5c6f83;
     margin-top: 97px;
     text-align: center;
@@ -11077,7 +11074,7 @@ a.logo:hover {
 @media (max-width: 767px) {
     .btn-menu {
     position: absolute;
-    top: 85px;
+    top: 38px;
     right: 20px;
     display: block;
 }
