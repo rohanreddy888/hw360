@@ -112,6 +112,7 @@ select {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+    max-width: 75rem;
 }
 .row:before, .row:after {
     content: " ";
@@ -1680,7 +1681,7 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
     color: #fff;
 }
 button.alert, .button.alert {
-    background-color: #f04124;
+    background-color: #c0504d;
     border-color: #cf2a0e;
     color: #fff;
 }
@@ -2979,7 +2980,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     display: block;
     font-size: .875rem;
     margin: 0 0 1rem 0;
-    padding: 1.5rem;
+    padding: .5rem;
     height: 2.3125rem;
     width: 100%;
     -webkit-box-sizing: border-box;
@@ -9380,6 +9381,7 @@ THE SOFTWARE IS PROVIDED "AS IS",  WITHOUT WARRANTY OF ANY KIND,  EXPRESS OR IMP
     min-width: 180px;
 }
 .logo {
+    /*margin: 22px 0;*/
     display: inline-block;
     font-family: "Dosis",  sans-serif;
     font-weight: bold;
@@ -9391,17 +9393,17 @@ a.logo:hover {
     color: #117dbf;
 }
 .logo img {
-    padding-left: 30px;
     width: 56%;
     height: auto;
     display: block;
-    margin-top: 10px;
+    margin-top: 7px;
     margin-bottom: 2px;
 }
 .nav {
     position: relative;
     z-index: 20;
-    padding-right: 0px;
+    padding-left: 28px;
+    border-left: 1px solid  #d6dce2;
     margin-top: 29px;
 }
 .nav ul {
@@ -9606,7 +9608,7 @@ a.logo:hover {
 .intro-small {
     overflow: hidden;
     height: auto;
-    height: 500px;
+    height: 341px;
 }
 .intro-small.alt {
     background-color: #f0f4f7;
@@ -9810,7 +9812,6 @@ a.logo:hover {
 }
 .section-about-us {
     position: relative;
-    padding-left: 40px;
     min-height: 620px;
     padding-top: 104px;
     margin-right: -15px;
@@ -9931,6 +9932,7 @@ a.logo:hover {
 .doctor-body {
     overflow: hidden;
     padding: 0 26px 26px;
+    height: 430px;
 }
 .doctor-body h6 {
     float: left;
@@ -9981,6 +9983,7 @@ a.logo:hover {
 .section-services {
     position: relative;
     z-index: 5;
+    padding-bottom: 123px;
 }
 .section-services .section-ribbon {
     background-color: #7f64b5;
@@ -9990,7 +9993,7 @@ a.logo:hover {
 }
 .section-services .section-head {
     padding: 78px 0 42px;
-    background-color: #7f64b5;
+    background-color: #0c5786;
     text-align: center;
 }
 .section-services .section-head h2 {
@@ -10007,7 +10010,7 @@ a.logo:hover {
     padding-bottom: 0;
 }
 .section-services.section-doctors .row {
-    margin-bottom: 0px;
+    margin-bottom: 31px;
 }
 .service-image {
     overflow: hidden;
@@ -10062,7 +10065,7 @@ a.logo:hover {
 .section-updates {
     position: relative;
     z-index: 30;
-    padding: 80px 0 111px;
+    padding: 30px 0 3px;
 }
 .section-updates .section-head {
     margin-bottom: 50px;
@@ -11553,7 +11556,7 @@ input[type='text'].field-date.error:-ms-input-placeholder {
     background-color: #f0f4f7;
 }
 .tab-head {
-    background-color: #7f64b5;
+    background-color: #0c5786;
     padding-bottom: 43px;
 }
 .section-doctors-alt .tab-head {
@@ -11563,6 +11566,7 @@ input[type='text'].field-date.error:-ms-input-placeholder {
 }
 .section-doctors-alt .tab-body {
     padding-top: 0;
+    padding-bottom: 10px;
 }
 .list-services {
     margin: 0 -15px;
